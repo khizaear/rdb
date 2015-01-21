@@ -1,0 +1,568 @@
+{>"layouts/master" /}
+{<body}
+<div class="main-container container" id="main-container">
+	<div class="main-content">
+		<div class="main-content-inner">
+			<div class="breadcrumbs" id="breadcrumbs">
+			
+				<ul class="breadcrumb">
+					<li>
+						<i class="ace-icon fa fa-home home-icon"></i>
+						<a href="#">Home</a>
+					</li>
+					<li class="active">Dashboard</li>
+				</ul><!-- /.breadcrumb -->
+			</div>
+			
+			<div class="page-content">
+				<div class="page-header"><h1>Live Bugs!</h1></div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-4 widget-container-col ui-sortable">
+						<div class="widget-box ui-sortable-handle">
+							<div class="widget-header">
+												<h5 class="widget-title">Live Bugs</h5>
+
+												<div class="widget-toolbar">
+													<div class="widget-menu">
+														<a data-toggle="dropdown" data-action="settings" href="#">
+															<i class="ace-icon fa fa-bars"></i>
+														</a>
+
+														<ul class="dropdown-menu dropdown-menu-right dropdown-light-blue dropdown-caret dropdown-closer">
+															<li>
+																<a href="#dropdown1" data-toggle="tab">Option#1</a>
+															</li>
+
+															<li>
+																<a href="#dropdown2" data-toggle="tab">Option#2</a>
+															</li>
+														</ul>
+													</div>
+
+													<a class="orange2" data-action="fullscreen" href="#">
+														<i class="ace-icon fa fa-expand"></i>
+													</a>
+
+													<a data-action="reload" href="#">
+														<i class="ace-icon fa fa-refresh"></i>
+													</a>
+
+													<a data-action="collapse" href="#">
+														<i class="ace-icon fa fa-chevron-up"></i>
+													</a>
+
+													<a data-action="close" href="#">
+														<i class="ace-icon fa fa-times"></i>
+													</a>
+												</div>
+											</div>
+							<div class="widget-body">
+							<div class="widget-main">
+								<div class="row">
+									<div class="col-md-4">
+										<i style="color:#6fb3e0" class="fa fa-tachometer  bigger-500"></i>
+									</div>
+									<div class="col-md-8">
+										<strong>Live Bugs</strong>
+										<p>
+										Total : 
+										<br>
+										Common Services : 
+										<br>
+										Post Transaction : 
+										<br>
+									  </p>
+									  <button class="btn btn-white btn-info btn-bold" >
+												<i class="ace-icon fa fa-floppy-o bigger-120 blue"></i>
+												Open
+											</button>
+									</div>
+								</div>
+							</div>
+							</div>										
+						</div>
+					</div>
+				
+					<div class="col-xs-12 col-sm-4 widget-container-col ui-sortable">
+						<div class="widget-box ui-sortable-handle">
+							<div class="widget-header">
+								<h5 class="widget-title">Components Health</h5>
+
+								<div class="widget-toolbar">
+													<div class="widget-menu">
+														<a data-toggle="dropdown" data-action="settings" href="#">
+															<i class="ace-icon fa fa-bars"></i>
+														</a>
+
+														<ul class="dropdown-menu dropdown-menu-right dropdown-light-blue dropdown-caret dropdown-closer">
+															<li>
+																<a href="#dropdown1" data-toggle="tab">Option#1</a>
+															</li>
+
+															<li>
+																<a href="#dropdown2" data-toggle="tab">Option#2</a>
+															</li>
+														</ul>
+													</div>
+
+													<a class="orange2" data-action="fullscreen" href="#">
+														<i class="ace-icon fa fa-expand"></i>
+													</a>
+
+													<a data-action="reload" href="#">
+														<i class="ace-icon fa fa-refresh"></i>
+													</a>
+
+													<a data-action="collapse" href="#">
+														<i class="ace-icon fa fa-chevron-up"></i>
+													</a>
+
+													<a data-action="close" href="#">
+														<i class="ace-icon fa fa-times"></i>
+													</a>
+												</div>
+											
+							</div>
+							<div class="widget-body">
+							<div class="widget-main">
+								<div class="row">
+									<div class="col-md-4">
+										<i style="color:#fc8" class="fa fa-heart   bigger-500"></i>
+									</div>
+									<div class="col-md-8">
+										<strong>Live Bugs</strong>
+										<p>
+										Total : 
+										<br>
+										Common Services : 
+										<br>
+										Post Transaction : 
+										<br>
+									  </p>
+									  <button class="btn btn-white btn-info btn-bold" link="/craftmanship">
+												<i class="ace-icon fa fa-floppy-o bigger-120 blue"></i>
+												Open
+											</button>
+									</div>
+								</div>
+							</div>
+							</div>										
+						</div>
+					</div>
+				
+					<div class="col-xs-12 col-sm-4 widget-container-col ui-sortable">
+						<div class="widget-box ui-sortable-handle">
+							<div class="widget-header">
+												<h5 class="widget-title">Score Card</h5>
+
+												<div class="widget-toolbar">
+													<div class="widget-menu">
+														<a data-toggle="dropdown" data-action="settings" href="#">
+															<i class="ace-icon fa fa-bars"></i>
+														</a>
+
+														<ul class="dropdown-menu dropdown-menu-right dropdown-light-blue dropdown-caret dropdown-closer">
+															<li>
+																<a href="#dropdown1" data-toggle="tab">Option#1</a>
+															</li>
+
+															<li>
+																<a href="#dropdown2" data-toggle="tab">Option#2</a>
+															</li>
+														</ul>
+													</div>
+
+													<a class="orange2" data-action="fullscreen" href="#">
+														<i class="ace-icon fa fa-expand"></i>
+													</a>
+
+													<a data-action="reload" href="#">
+														<i class="ace-icon fa fa-refresh"></i>
+													</a>
+
+													<a data-action="collapse" href="#">
+														<i class="ace-icon fa fa-chevron-up"></i>
+													</a>
+
+													<a data-action="close" href="#">
+														<i class="ace-icon fa fa-times"></i>
+													</a>
+												</div>
+											</div>
+							<div class="widget-body">
+							<div class="widget-main">
+								<div class="row">
+									<div class="col-md-4">
+										<i class="fa fa-tachometer  bigger-500"></i>
+									</div>
+									<div class="col-md-8">
+										<strong><a href="/craftmanship">Score card</a></strong>
+										<p>
+										Total : 
+										<br>
+										Common Services : 
+										<br>
+										Post Transaction : 
+										<br>
+									  </p>
+									  <a href="/craftmanship">
+									  <button class="btn btn-white btn-info btn-bold" link="/craftmanship">
+												<i class="ace-icon fa fa-floppy-o bigger-120 blue"></i>
+												Open
+											</button></a>
+									</div>
+								</div>
+							</div>
+							</div>										
+						</div>
+					</div>
+				
+					<div class="col-xs-12 col-sm-4 widget-container-col ui-sortable">
+						<div class="widget-box ui-sortable-handle">
+							<div class="widget-header">
+												<h5 class="widget-title">Live Bugs</h5>
+
+												<div class="widget-toolbar">
+													<div class="widget-menu">
+														<a data-toggle="dropdown" data-action="settings" href="#">
+															<i class="ace-icon fa fa-bars"></i>
+														</a>
+
+														<ul class="dropdown-menu dropdown-menu-right dropdown-light-blue dropdown-caret dropdown-closer">
+															<li>
+																<a href="#dropdown1" data-toggle="tab">Option#1</a>
+															</li>
+
+															<li>
+																<a href="#dropdown2" data-toggle="tab">Option#2</a>
+															</li>
+														</ul>
+													</div>
+
+													<a class="orange2" data-action="fullscreen" href="#">
+														<i class="ace-icon fa fa-expand"></i>
+													</a>
+
+													<a data-action="reload" href="#">
+														<i class="ace-icon fa fa-refresh"></i>
+													</a>
+
+													<a data-action="collapse" href="#">
+														<i class="ace-icon fa fa-chevron-up"></i>
+													</a>
+
+													<a data-action="close" href="#">
+														<i class="ace-icon fa fa-times"></i>
+													</a>
+												</div>
+											</div>
+							<div class="widget-body">
+							<div class="widget-main">
+								<div class="row">
+									<div class="col-md-4">
+										<i class="fa fa-tachometer  bigger-500"></i>
+									</div>
+									<div class="col-md-8">
+										<strong>Live Bugs</strong>
+										<p>
+										Total : 
+										<br>
+										Common Services : 
+										<br>
+										Post Transaction : 
+										<br>
+									  </p>
+									</div>
+								</div>
+							</div>
+							</div>										
+						</div>
+					</div>
+				
+					<div class="col-xs-12 col-sm-4 widget-container-col ui-sortable">
+						<div class="widget-box ui-sortable-handle">
+							<div class="widget-header">
+												<h5 class="widget-title">Live Bugs</h5>
+
+												<div class="widget-toolbar">
+													<div class="widget-menu">
+														<a data-toggle="dropdown" data-action="settings" href="#">
+															<i class="ace-icon fa fa-bars"></i>
+														</a>
+
+														<ul class="dropdown-menu dropdown-menu-right dropdown-light-blue dropdown-caret dropdown-closer">
+															<li>
+																<a href="#dropdown1" data-toggle="tab">Option#1</a>
+															</li>
+
+															<li>
+																<a href="#dropdown2" data-toggle="tab">Option#2</a>
+															</li>
+														</ul>
+													</div>
+
+													<a class="orange2" data-action="fullscreen" href="#">
+														<i class="ace-icon fa fa-expand"></i>
+													</a>
+
+													<a data-action="reload" href="#">
+														<i class="ace-icon fa fa-refresh"></i>
+													</a>
+
+													<a data-action="collapse" href="#">
+														<i class="ace-icon fa fa-chevron-up"></i>
+													</a>
+
+													<a data-action="close" href="#">
+														<i class="ace-icon fa fa-times"></i>
+													</a>
+												</div>
+											</div>
+							<div class="widget-body">
+							<div class="widget-main">
+								<div class="row">
+									<div class="col-md-4">
+										<i class="fa fa-tachometer  bigger-500"></i>
+									</div>
+									<div class="col-md-8">
+										<strong>Live Bugs</strong>
+										<p>
+										Total : 
+										<br>
+										Common Services : 
+										<br>
+										Post Transaction : 
+										<br>
+									  </p>
+									</div>
+								</div>
+							</div>
+							</div>										
+						</div>
+					</div>
+				
+					<div class="col-xs-12 col-sm-4 widget-container-col ui-sortable">
+						<div class="widget-box ui-sortable-handle">
+							<div class="widget-header">
+												<h5 class="widget-title">Live Bugs</h5>
+
+												<div class="widget-toolbar">
+													<div class="widget-menu">
+														<a data-toggle="dropdown" data-action="settings" href="#">
+															<i class="ace-icon fa fa-bars"></i>
+														</a>
+
+														<ul class="dropdown-menu dropdown-menu-right dropdown-light-blue dropdown-caret dropdown-closer">
+															<li>
+																<a href="#dropdown1" data-toggle="tab">Option#1</a>
+															</li>
+
+															<li>
+																<a href="#dropdown2" data-toggle="tab">Option#2</a>
+															</li>
+														</ul>
+													</div>
+
+													<a class="orange2" data-action="fullscreen" href="#">
+														<i class="ace-icon fa fa-expand"></i>
+													</a>
+
+													<a data-action="reload" href="#">
+														<i class="ace-icon fa fa-refresh"></i>
+													</a>
+
+													<a data-action="collapse" href="#">
+														<i class="ace-icon fa fa-chevron-up"></i>
+													</a>
+
+													<a data-action="close" href="#">
+														<i class="ace-icon fa fa-times"></i>
+													</a>
+												</div>
+											</div>
+							<div class="widget-body">
+							<div class="widget-main">
+								<div class="row">
+									<div class="col-md-4">
+										<i class="fa fa-tachometer  bigger-500"></i>
+									</div>
+									<div class="col-md-8">
+										<strong>Live Bugs</strong>
+										<p>
+										Total : 
+										<br>
+										Common Services : 
+										<br>
+										Post Transaction : 
+										<br>
+									  </p>
+									</div>
+								</div>
+							</div>
+							</div>										
+						</div>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--
+    <h1> </h1>
+    <!DOCTYPE html>
+
+
+<div id="wrapper" class="content"></div>
+<div class="container">
+      <p>
+
+      <div class="container">
+      <div class="jumbotron container" style="background-color:Grey;">
+      <div class="container-fluid">
+      <h1> </h1>
+
+        <h1 align="center">Risk Domain Dashboard!</h1>    
+        </div>
+    </div>
+      <div class="row">
+        <div class="col-sm-4" style="background-color:Grey;">
+        <a href="/livebugs">
+        <div class="span4">
+        <div class="well">
+          <div class="head">
+            <h1 >
+              Live Bugs
+            </h1>
+          </div>
+          <p>
+            Total : 
+            <br>
+            Common Services : 
+            <br>
+            Post Transaction : 
+          </p>
+        </div>
+        </div>
+      </a>
+      </div>
+  <div class="row">
+        <div class="col-sm-4" style="background-color:Grey;">
+          <a href="/health">
+      <div class="span4">
+        <div class="well">
+          <div class="head">
+            <h1>
+              Components Health
+            </h1>
+          </div>
+          <p>
+            Total : 
+            <br>
+            Running : 
+            <br>
+            Failed : 
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="row">
+        <div class="col-sm-4 " style="background-color:Grey;">
+          <a href="/calerrors">
+      <div class="span4">
+        <div class="well">
+          <div class="head">
+            <h1>
+              CAL Errors
+            </h1>
+          </div>
+          <p>
+                 
+            Top 10 CAL Errors
+            <br>
+            {size}
+
+            Common Services : 
+            <br>
+            Post Transaction : 
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="row">
+        <div class="col-sm-4" style="background-color:Grey;">
+          <a href="/craftmanship">
+      <div class="span4">
+        <div class="well">
+          <div class="head">
+            <h1>
+              Craftmanship Scorecard
+              <br>
+                          
+            </h1>
+          </div>
+          <br>
+          </p>
+          </p>
+          </p>
+      
+
+          </div>
+      </div>
+    </a>
+  </div>
+ <div class="row">
+        <div class="col-sm-4" style="background-color:Grey;">
+          <a href="/batchreport">
+      <div class="span4">
+        <div class="well">
+          <div class="head">
+            <h1>
+              Batch Report
+            </h1>
+          </div>
+          <p>
+            Total : 
+            <br>
+            Common Services : 
+            <br>
+            Post Transaction : 
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="row">
+        <div class="col-sm-4" style="background-color:Grey;">
+           <a href="/ppmir">
+      <div class="span4">
+        <div class="well">
+          <div class="head">
+            <h1>
+              PPMIR
+            </h1>
+          </div>
+          <p>
+
+            Pushed : 
+            <br>
+            Planned : 
+            <br>
+
+            <br>
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+   </div>
+  <script data-main="/js/app" src="/components/requirejs/require.js"></script> -->
+{/body}
+

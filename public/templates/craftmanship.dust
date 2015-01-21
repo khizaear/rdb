@@ -1,0 +1,170 @@
+{>"layouts/master" /}
+
+
+ {<body}
+ <div class="main-container container" id="main-container">
+	<div class="main-content">
+		<div class="main-content-inner">
+			<div class="breadcrumbs" id="breadcrumbs">			
+				<ul class="breadcrumb">
+					<li>
+						<i class="ace-icon fa fa-home home-icon"></i>
+						<a href="/">Home</a>
+					</li>
+					<li class="active">Scorecard</li>
+				</ul><!-- /.breadcrumb -->
+			</div>
+			<div class="page-content">
+				<div class="page-header"><h1>Score Card!</h1></div>
+				
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="table-header"> Month: {?monthName1} {monthName1}{/monthName1}  </div>      
+
+       <table class="table table-striped table-bordered" id="craftmanshipDataTable1">
+         <thead align="center">
+           <tr>
+             <th colspan="2" align ="center"> Tech Leader</th>
+             <th colspan="2"> OOL </th>
+             <th colspan="2"> BIR </th>
+             <th colspan="2"> INTG </th>
+             <th colspan="2"> SLA </th>
+             <th rowspan="2"> Total </th>
+            </tr>
+            <tr>
+            <th colspan="2"> </th>
+            
+            <th> Actual vs Goal </th>
+            <th> Score </th>
+            <th> Actual vs Goal </th>
+            <th> Score </th>
+            <th> Actual vs Goal </th>
+            <th> Score </th>
+            <th> Actual vs Goal </th>
+            <th> Score </th>
+         </thead>
+         <tbody>
+             <tr>
+             <td colspan ="2">Arvind Shenoy </td>
+             {#ashenoym1}<td>{actual}/{goal}</td><td>{score}%</td>{/ashenoym1}
+             <td> {?totalashenoym1}{totalashenoym1}%{/totalashenoym1} </td>
+             </tr>
+             <tr>
+             <td colspan ="2">Sahib Bal </td>
+             {#sbalm1}<td>{actual}/{goal}</td><td>{score}%</td>{/sbalm1}
+             <td> {?totalsbalm1}{totalsbalm1}%{/totalsbalm1} </td>
+             </tr>
+             <tr>
+             <td colspan ="2">Catherine Chang</td>
+             {#ccchangm1}<td>{actual}/{goal}</td><td>{score}%</td>{/ccchangm1}
+             <td> {?totalccchangm1}{totalccchangm1}%{/totalccchangm1} </td>
+             </tr>
+          </tbody>
+       </table>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+  <h1 align="center"></h1>
+    <div id="wrapper" class="content">
+
+</div>
+  <div class="row">
+        <div class="container">
+        <div class="table-responsive">  
+       
+        
+
+    <h2>  <center> Month: {?monthName2} {monthName2}{/monthName2} </center></h2>        
+        <table class="table table-striped table-bordered" id="craftmanshipDataTable">
+         <thead>
+           <tr>
+             <th colspan="2"> Tech Leader</th>
+             <th colspan="2"> OOL </th>
+             <th colspan="2"> BIR </th>
+             <th colspan="2"> INTG </th>
+             <th colspan="2"> SLA </th>
+             <th rowspan="2"> Total </th>
+            </tr>
+            <tr>
+            <th colspan="2"> </th>
+            
+            <th> Actual vs Goal </th>
+            <th> Score </th>
+            <th> Actual vs Goal </th>
+            <th> Score </th>
+            <th> Actual vs Goal </th>
+            <th> Score </th>
+            <th> Actual vs Goal </th>
+            <th> Score </th>
+         </thead>
+         <tbody>
+             <tr>
+             <td colspan ="2">Arvind Shenoy </td>
+             {#ashenoym2}<td>{actual}/{goal}</td><td>{score}%</td>{/ashenoym2}
+             <td> {?totalashenoym2}{totalashenoym2}%{/totalashenoym2} </td>
+             </tr>
+             <tr>
+             <td colspan ="2">Sahib Bal </td>
+             {#sbalm2}<td>{actual}/{goal}</td><td>{score}%</td>{/sbalm2}
+             <td> {totalsbalm2}% </td>
+             </tr>
+             <tr>
+             <td colspan ="2">Catherine Chang</td>
+             {#ccchangm2} <td>{actual}/{goal}</td><td>{score}%</td>{/ccchangm2}
+             <td> {totalccchangm2}% </td>
+             </tr>
+          </tbody>
+       </table>
+
+       <h2>  <center> Month: {?monthName3} {monthName3}{/monthName3} </center></h2>            
+       <table class="table table-striped table-bordered" id="craftmanshipDataTable">
+         <thead>
+           <tr>
+             <th colspan="2"> Tech Leader</th>
+             <th colspan="2"> OOL </th>
+             <th colspan="2"> BIR </th>
+             <th colspan="2"> INTG </th>
+             <th colspan="2"> SLA </th>
+             <th rowspan="2"> Total </th>
+            </tr>
+            <tr>
+            <th colspan="2"> </th>
+            
+            <th> Actual vs Goal </th>
+            <th> Score </th>
+            <th> Actual vs Goal </th>
+            <th> Score </th>
+            <th> Actual vs Goal </th>
+            <th> Score </th>
+            <th> Actual vs Goal </th>
+            <th> Score </th>
+         </thead>
+         <tbody>
+             <tr>
+             <td colspan ="2">Arvind Shenoy </td>
+             {#ashenoym3}<td>{actual}/{goal}</td><td>{score}%</td>{/ashenoym3}
+             <td> {totalashenoym3}% </td>
+             </tr>
+             <tr>
+             <td colspan ="2">Sahib Bal </td>
+             {#sbalm3}<td>{actual}/{goal}</td><td>{score}%</td>{/sbalm3}
+             <td> {totalsbalm3}% </td>
+             </tr>
+             <tr>
+             <td colspan ="2">Catherine Chang</td>
+             {#ccchangm3} <td>{actual}/{goal}</td><td>{score}%</td>{/ccchangm3}
+             <td> {totalccchangm3}% </td>
+             </tr>
+          </tbody>
+       </table>
+      </div>
+  </div>
+		
+{/body}
+

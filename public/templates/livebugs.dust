@@ -1,0 +1,6 @@
+{>"layouts/master" /}
+
+{<body}
+    <h1>livebugs</h1>
+{/body}
+
