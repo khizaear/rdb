@@ -1,6 +1,7 @@
 # PayPal RDB Layout
 Create a new blank page with below html syntax 
 
+{<body}
 <div class="main-container container" id="main-container">
 			<div class="main-content">
 				<div class="main-content-inner">
@@ -25,3 +26,4 @@ Create a new blank page with below html syntax
 				</div>
 			</div><!-- /.main-content -->
 		</div><!-- /.main-container -->
+{/body}
