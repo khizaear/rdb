@@ -1,16 +1,22 @@
 {>"layouts/master" /}
-
-
 {<body}
-    <div class="main-container container" id="main-container">
+<div class="main-container container" id="main-container">
 	<div class="main-content">
 		<div class="main-content-inner">
-	
+			<div class="breadcrumbs" id="breadcrumbs">
+			
+				<ul class="breadcrumb">
+					<li>
+						<i class="ace-icon fa fa-home home-icon"></i>
+						<a href="#">Home</a>
+					</li>
+					<li class="active">Dashboard</li>
+				</ul><!-- /.breadcrumb -->
+			</div>
+			
 			<div class="page-content">
-<h3><center> - {size}</center></h3>
-    
-            <div class="container benefits">
-                <div class="row">
+				<div class="page-header"><h1>Live Bugs!</h1></div>
+				<div class="row">
 				<div class="col-md-2">
                     <a href="/livebugs"  >
                         
@@ -84,8 +90,11 @@
                         
                     </a>
 					</div>
-                    </div>
-                    {?rnptotalsize}<h5 style="
+                    
+				</div>
+				<div class="row">
+				
+				    {?rnptotalsize}<h5 style="
                                       position: absolute;
                                       padding-right: 100px;
                                       left: 100px;top: 150px; color:green;"> RnP Bug Count:{rnptotalsize}</h5>{/rnptotalsize}
@@ -93,12 +102,10 @@
                                      position: absolute;
                                      padding-right: 100px;
                                      left: 100px;top: 150px; color:green;">CommonServices Bug Count:{cstotalsize}</h5>{/cstotalsize}
-                    <br/>{?val}
-                    <div class="table-responsive" style="
-                                                      position: absolute;
-                                                      padding-right: 100px;
-                                                      left: 100px; ">
-                    <table class="table table-striped table-bordered" id="table1">
+                    </div>
+                	
+				<div class="row">
+				{?val} <table class="table table-striped table-bordered" id="table1">
                         <tr>
                             <th>ID</th>
                             <th class="span6">Summary</th>
@@ -131,16 +138,168 @@
                             <td>{verifieremail}</td>
                             <td>{deliveryteam}</td>
                          </tr>{/val}
-                    </table>
-              </div>{/val}
-              </div>
-        
+                    </table>{/val}
+				</div>
+			
+			
+		</div>
+	</div>
+</div>
+</div>
+<!--
+    <h1> </h1>
+    <!DOCTYPE html>
+
+
+<div id="wrapper" class="content"></div>
+<div class="container">
+      <p>
+
+      <div class="container">
+      <div class="jumbotron container" style="background-color:Grey;">
+      <div class="container-fluid">
+      <h1> </h1>
+
+        <h1 align="center">Risk Domain Dashboard!</h1>    
         </div>
+    </div>
+      <div class="row">
+        <div class="col-sm-4" style="background-color:Grey;">
+        <a href="/livebugs">
+        <div class="span4">
+        <div class="well">
+          <div class="head">
+            <h1 >
+              Live Bugs
+            </h1>
+          </div>
+          <p>
+            Total : 
+            <br>
+            Common Services : 
+            <br>
+            Post Transaction : 
+          </p>
+        </div>
+        </div>
+      </a>
+      </div>
+  <div class="row">
+        <div class="col-sm-4" style="background-color:Grey;">
+          <a href="/health">
+      <div class="span4">
+        <div class="well">
+          <div class="head">
+            <h1>
+              Components Health
+            </h1>
+          </div>
+          <p>
+            Total : 
+            <br>
+            Running : 
+            <br>
+            Failed : 
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="row">
+        <div class="col-sm-4 " style="background-color:Grey;">
+          <a href="/calerrors">
+      <div class="span4">
+        <div class="well">
+          <div class="head">
+            <h1>
+              CAL Errors
+            </h1>
+          </div>
+          <p>
+                 
+            Top 10 CAL Errors
+            <br>
+            {size}
 
+            Common Services : 
+            <br>
+            Post Transaction : 
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="row">
+        <div class="col-sm-4" style="background-color:Grey;">
+          <a href="/craftmanship">
+      <div class="span4">
+        <div class="well">
+          <div class="head">
+            <h1>
+              Craftmanship Scorecard
+              <br>
+                          
+            </h1>
+          </div>
+          <br>
+          </p>
+          </p>
+          </p>
+      
+
+          </div>
+      </div>
+    </a>
+  </div>
+ <div class="row">
+        <div class="col-sm-4" style="background-color:Grey;">
+          <a href="/batchreport">
+      <div class="span4">
+        <div class="well">
+          <div class="head">
+            <h1>
+              Batch Report
+            </h1>
+          </div>
+          <p>
+            Total : 
+            <br>
+            Common Services : 
+            <br>
+            Post Transaction : 
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="row">
+        <div class="col-sm-4" style="background-color:Grey;">
+           <a href="/ppmir">
+      <div class="span4">
+        <div class="well">
+          <div class="head">
+            <h1>
+              PPMIR
+            </h1>
+          </div>
+          <p>
+
+            Pushed : 
+            <br>
+            Planned : 
+            <br>
+
+            <br>
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
 </div>
-</div>
-</div>
+   </div>
+  <script data-main="/js/app" src="/components/requirejs/require.js"></script> -->
 {/body}
-
-
 
