@@ -26,17 +26,21 @@
 		
 		<![endif]-->
 </head>
-<body class="skin-t" >
+<body class="no-skin" >
+{>header/}
 
+    {+body /}
 <script src="ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='dist/js/jquery.min.js'>"+"<"+"/script>");
+		</script>
 <script src="netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+
 
 <script src="dist/js/ace-elements.min.js"></script>
 <script src="dist/js/ace.min.js"></script>
 
-<script data-main="/js/app" src="/components/requirejs/require.js"></script>
-	{>header/}
-    {+body /}
-
+	
 </body>
 </html>
