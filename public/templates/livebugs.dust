@@ -1,6 +1,146 @@
 {>"layouts/master" /}
 
+
 {<body}
-    <h1>livebugs</h1>
+    <div class="main-container container" id="main-container">
+	<div class="main-content">
+		<div class="main-content-inner">
+	
+			<div class="page-content">
+<h3><center> - {size}</center></h3>
+    
+            <div class="container benefits">
+                <div class="row">
+				<div class="col-md-2">
+                    <a href="/livebugs"  >
+                        
+                            <div class="well btn btn-info" {?size}style="background-color:lightblue;"{/size}>
+                                <div class="new"></div>
+                                <div class="head">
+                                    <h4> <center>
+                                        Total {?size}- {size}{/size}
+                                    </center></h4>
+
+                                </div>
+                            </div>
+                        
+                    </a>
+					</div>
+                <div class="col-md-2">
+                    <a href="/posttxn"  >
+                        
+                            <div class="well btn btn-info" {?rnptotalsize}style="background-color:lightblue;"{/rnptotalsize}>
+                                <div class="new"></div>
+                                <div class="head">
+                                    <h4> <center>
+                                        Post Txn {?posttxnsize}- {posttxnsize}{/posttxnsize}
+                                    </center></h4>
+
+                                </div>
+                            </div>
+                        
+                    </a>
+					</div>
+					 <div class="col-md-3">
+                    <a href="/cs" >
+                       
+                            <div class="well btn btn-info" {?cstotalsize}style="background-color:lightblue;"{/cstotalsize}>
+                                <div class="new"></div>
+                                <div class="head">
+                                    <h4><center>
+                                        Common Services {?cssize}- {cssize}{/cssize}
+                                    </center></h4>
+                                </div>
+                            </div>
+                        
+                    </a>
+					</div>
+					
+					<div class="col-md-2">
+                    <a href="/txn" >
+                       
+                            <div class="well btn btn-info" {?cstotalsize}style="background-color:lightblue;"{/cstotalsize}>
+                                <div class="new"></div>
+                                <div class="head">
+                                    <h4><center>
+                                        Txn {?txnsize}- {txnsize}{/txnsize}
+                                    </center></h4>
+                                </div>
+                            </div>
+                        
+                    </a>
+					</div>
+					<div class="col-md-2">
+                    <a href="/pretxn" >
+                       
+                            <div class="well btn btn-info" {?cstotalsize}style="background-color:lightblue;"{/cstotalsize}>
+                                <div class="new"></div>
+                                <div class="head">
+                                    <h4><center>
+                                        PreTxn {?pretxnsize}- {pretxnsize}{/pretxnsize}
+                                    </center></h4>
+                                </div>
+                            </div>
+                        
+                    </a>
+					</div>
+                    </div>
+                    {?rnptotalsize}<h5 style="
+                                      position: absolute;
+                                      padding-right: 100px;
+                                      left: 100px;top: 150px; color:green;"> RnP Bug Count:{rnptotalsize}</h5>{/rnptotalsize}
+                    {?cstotalsize}<h5 style="
+                                     position: absolute;
+                                     padding-right: 100px;
+                                     left: 100px;top: 150px; color:green;">CommonServices Bug Count:{cstotalsize}</h5>{/cstotalsize}
+                    <br/>{?val}
+                    <div class="table-responsive" style="
+                                                      position: absolute;
+                                                      padding-right: 100px;
+                                                      left: 100px; ">
+                    <table class="table table-striped table-bordered" id="table1">
+                        <tr>
+                            <th>ID</th>
+                            <th class="span6">Summary</th>
+                            <th>Priority</th>
+                            <th>Status</th>
+                            <th>Date Created</th>
+                            <th>Affect Version</th>
+                            <th>Phase Found</th>
+                            <th>Age</th>
+                            <th>Tags</th>
+                            <th>Resolution</th>
+                            <th>Fix Version</th>
+                            <th>Developer Email</th>
+                            <th>Verifier Email</th>
+                            <th>Delivery Team</th>
+                        </tr>
+                        {#val} <tr {@if cond="('{issue_priority}' === 'Blocker')"}class="blink"{/if}>
+                            <td><a href="https://jira.paypal.com/jira/browse/{pkey}" target="_blank" {@if cond="('{issue_priority}' === 'Blocker')"}class="blink"{/if}>{pkey}</a></td>
+                            <td>{issue_summary}</td>
+                            <td >{issue_priority}</td>
+                            <td>{issue_status}</td>
+                            <td>{datecreated}</td>
+                            <td>{affectsversion}</td>
+                            <td>{phasefound}</td>
+                            <td>{age}</td>
+                            <td>{tags}</td>
+                            <td>{resolution}</td>
+                            <td>{fixversion}</td>
+                            <td>{issue_assignedto}</td>
+                            <td>{verifieremail}</td>
+                            <td>{deliveryteam}</td>
+                         </tr>{/val}
+                    </table>
+              </div>{/val}
+              </div>
+        
+        </div>
+
+</div>
+</div>
+</div>
 {/body}
+
+
 

@@ -3,7 +3,8 @@
 var http = require('http');
 var express = require('express');
 var kraken = require('kraken-js');
-
+var cookieParser = require('cookie-parser')
+var session = require('express-session')
 
 var options, app, server;
 
@@ -23,6 +24,8 @@ options = {
 
 app = module.exports = express();
 app.use(kraken(options));
+app.use(cookieParser());
+app.use(session({secret: 'LiveBugs'}));
 app.on('start', function () {
     console.log('Application ready to serve requests.');
     console.log('Environment: %s', app.kraken.get('env:env'));
