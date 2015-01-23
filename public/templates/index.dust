@@ -127,10 +127,10 @@
 							<div class="widget-main">
 								<div class="row">
 									<div class="col-md-4">
-										<i style="color:#fc8" class="fa fa-heart   bigger-500"></i>
+										<i style="color:#6fb3e0" class="fa fa-tachometer  bigger-500"></i>
 									</div>
 									<div class="col-md-8">
-										<strong>Live Bugs</strong>
+										<strong>Components Health</strong>
 										<p>
 										Total : 
 										<br>
@@ -153,7 +153,7 @@
 					<div class="col-xs-12 col-sm-4 widget-container-col ui-sortable">
 						<div class="widget-box ui-sortable-handle">
 							<div class="widget-header">
-												<h5 class="widget-title">Score Card</h5>
+												<h5 class="widget-title">Craftmanship Score Card</h5>
 
 												<div class="widget-toolbar">
 													<div class="widget-menu">
@@ -193,7 +193,7 @@
 							<div class="widget-main">
 								<div class="row">
 									<div class="col-md-4">
-										<i class="fa fa-tachometer  bigger-500"></i>
+										<i style="color:#6fb3e0" class="fa fa-tachometer  bigger-500"></i>
 									</div>
 									<div class="col-md-8">
 										<strong><a href="/craftmanship">Score card</a></strong>
@@ -220,7 +220,7 @@
 					<div class="col-xs-12 col-sm-4 widget-container-col ui-sortable">
 						<div class="widget-box ui-sortable-handle">
 							<div class="widget-header">
-												<h5 class="widget-title">Live Bugs</h5>
+												<h5 class="widget-title">CAL Errors</h5>
 
 												<div class="widget-toolbar">
 													<div class="widget-menu">
@@ -260,10 +260,10 @@
 							<div class="widget-main">
 								<div class="row">
 									<div class="col-md-4">
-										<i class="fa fa-tachometer  bigger-500"></i>
+										<i style="color:#6fb3e0" class="fa fa-tachometer  bigger-500"></i>
 									</div>
 									<div class="col-md-8">
-										<strong>Live Bugs</strong>
+										<strong>CAL Errors</strong>
 										<p>
 										Total : 
 										<br>
@@ -282,7 +282,7 @@
 					<div class="col-xs-12 col-sm-4 widget-container-col ui-sortable">
 						<div class="widget-box ui-sortable-handle">
 							<div class="widget-header">
-												<h5 class="widget-title">Live Bugs</h5>
+												<h5 class="widget-title">Batch Report</h5>
 
 												<div class="widget-toolbar">
 													<div class="widget-menu">
@@ -322,10 +322,10 @@
 							<div class="widget-main">
 								<div class="row">
 									<div class="col-md-4">
-										<i class="fa fa-tachometer  bigger-500"></i>
+										<i style="color:#6fb3e0" class="fa fa-tachometer  bigger-500"></i>
 									</div>
 									<div class="col-md-8">
-										<strong>Live Bugs</strong>
+										<strong>Batch report</strong>
 										<p>
 										Total : 
 										<br>
@@ -344,7 +344,7 @@
 					<div class="col-xs-12 col-sm-4 widget-container-col ui-sortable">
 						<div class="widget-box ui-sortable-handle">
 							<div class="widget-header">
-												<h5 class="widget-title">Live Bugs</h5>
+												<h5 class="widget-title">ECI</h5>
 
 												<div class="widget-toolbar">
 													<div class="widget-menu">
@@ -384,10 +384,10 @@
 							<div class="widget-main">
 								<div class="row">
 									<div class="col-md-4">
-										<i class="fa fa-tachometer  bigger-500"></i>
+										<i style="color:#6fb3e0" class="fa fa-tachometer  bigger-500"></i>
 									</div>
 									<div class="col-md-8">
-										<strong>Live Bugs</strong>
+										<strong>ECI</strong>
 										<p>
 										Total : 
 										<br>
