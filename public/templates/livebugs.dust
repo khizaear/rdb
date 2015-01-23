@@ -8,7 +8,7 @@
 				<ul class="breadcrumb">
 					<li>
 						<i class="ace-icon fa fa-home home-icon"></i>
-						<a href="#">Home</a>
+						<a href="../">Home</a>
 					</li>
 					<li class="active">Dashboard</li>
 				</ul><!-- /.breadcrumb -->
@@ -20,36 +20,25 @@
 				<table class="table table-striped table-bordered table-responsive">
 					<thead>
 					<tr  class="center">
-						<th> Total Bugs</th>
-						<th> Post Txn</th>
-						<th> Common Services</th>
-						<th> Txn 2</th>
-						<th> pre Txn</th>
+						<th class="center"> Total Bugs</th>
+						<th class="center"> Post Txn</th>
+						<th class="center"> Common Services</th>
+						<th class="center"> Txn</th>
+						<th class="center"> Pre Txn</th>
 					</tr>
 					</thead>
 					<tbody>
 					<tr  class="center">
-						<td >{?size} {size}{/size}</td>
-						<td>{?posttxnsize}{posttxnsize}{/posttxnsize}</td>
-						<td> {?cssize} {cssize}{/cssize}</td>
-						<td>  {?txnsize} {txnsize}{/txnsize}</td>
-						<td>   {?pretxnsize} {pretxnsize}{/pretxnsize}</td>
+						<td ><a href="/livebugs">{?size} {size}{/size}</a></td>
+						<td><a href="/posttxn">{?posttxnsize}{posttxnsize}{/posttxnsize}</a></td>
+						<td> <a href="/cs">{?cssize} {cssize}{/cssize}</a></td>
+						<td> <a href="/txn"> {?txnsize} {txnsize}{/txnsize}</a></td>
+						<td> <a href="/pretxn">  {?pretxnsize} {pretxnsize}{/pretxnsize}</a></td>
 					</tr>
 					</tbody>
 				</table>
 						
 				</div>
-				<div class="row">
-				
-				    {?rnptotalsize}<h5 style="
-                                      position: absolute;
-                                      padding-right: 100px;
-                                      left: 100px;top: 150px; color:green;"> RnP Bug Count:{rnptotalsize}</h5>{/rnptotalsize}
-                    {?cstotalsize}<h5 style="
-                                     position: absolute;
-                                     padding-right: 100px;
-                                     left: 100px;top: 150px; color:green;">CommonServices Bug Count:{cstotalsize}</h5>{/cstotalsize}
-                    </div>
                 <div class="clearfix">&nbsp;</div>	
 				<div class="row">
 				
@@ -117,8 +106,8 @@
                         </tr>
 						</thead>
 						<tbody>
-                        {#val} <tr {@if cond="('{issue_priority}' === 'Blocker')"}class="blink"{/if}>
-                            <td><a href="https://jira.paypal.com/jira/browse/{pkey}" target="_blank" {@if cond="('{issue_priority}' === 'Blocker')"}class="blink"{/if}>{pkey}</a></td>
+                        {#val} <tr {@if cond="('{issue_priority}' === 'Blocker' || '{issue_priority}' === 'Critical')"}class="blink"{/if}>
+                            <td><a href="https://jira.paypal.com/jira/browse/{pkey}" target="_blank" {@if cond="('{issue_priority}' === 'Blocker' || '{issue_priority}' === 'Critical')"}class="blink"{/if}>{pkey}</a></td>
                             <td>{issue_summary}</td>
                             <td >{issue_priority}</td>
                             <td>{issue_status}</td>
