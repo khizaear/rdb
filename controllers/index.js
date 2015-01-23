@@ -22,7 +22,8 @@ module.exports = function (router) {
         console.log('its index after rendering');
         
     });
-
+	
+	
   
 };
 

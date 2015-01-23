@@ -15,7 +15,7 @@
 			</div>
 			
 			<div class="page-content">
-				<div class="page-header"><h1>Live Bugs!</h1></div>
+				<div class="page-header"><h1>Risk Domain!</h1></div>
 				<div class="row">
 					<div class="col-xs-12 col-sm-4 widget-container-col ui-sortable">
 						<div class="widget-box ui-sortable-handle">
@@ -72,10 +72,10 @@
 										Post Transaction : 
 										<br>
 									  </p>
-									  <button class="btn btn-white btn-info btn-bold" >
+									  <a class="btn btn-white btn-info btn-bold" link="/livebugs">
 												<i class="ace-icon fa fa-floppy-o bigger-120 blue"></i>
 												Open
-											</button>
+											</a>
 									</div>
 								</div>
 							</div>
