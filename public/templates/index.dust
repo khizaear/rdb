@@ -60,22 +60,26 @@
 							<div class="widget-main">
 								<div class="row">
 									<div class="col-md-4">
-										<i style="color:#6fb3e0" class="fa fa-tachometer  bigger-500"></i>
+										<i style="color:#6fb3e0" class="fa fa-bug  bigger-500"></i>
 									</div>
 									<div class="col-md-8">
 										<strong>Live Bugs</strong>
-										<p>
+										<p> </p>
+										<!--<p>
 										Total : 
 										<br>
 										Common Services : 
 										<br>
 										Post Transaction : 
 										<br>
+									  </p>-->
+									  <p>
+									   <i style="color:#33CC33" > "Livebugs in Transaction, Pre/Post transaction and common area" </i>
 									  </p>
-									  <a class="btn btn-white btn-info btn-bold" link="/livebugs">
+									  <!--<a class="btn btn-white btn-info btn-bold" link="/livebugs">
 												<i class="ace-icon fa fa-floppy-o bigger-120 blue"></i>
 												Open
-											</a>
+											</a> -->
 									</div>
 								</div>
 							</div>
@@ -86,7 +90,7 @@
 					<div class="col-xs-12 col-sm-4 widget-container-col ui-sortable">
 						<div class="widget-box ui-sortable-handle">
 							<div class="widget-header">
-								<h5 class="widget-title">Components Health</h5>
+								<h5 class="widget-title">ECI</h5>
 
 								<div class="widget-toolbar">
 													<div class="widget-menu">
@@ -127,22 +131,24 @@
 							<div class="widget-main">
 								<div class="row">
 									<div class="col-md-4">
-										<i style="color:#6fb3e0" class="fa fa-tachometer  bigger-500"></i>
+										<i style="color:#6fb3e0" class="fa fa-github  bigger-500"></i>
 									</div>
 									<div class="col-md-8">
-										<strong>Components Health</strong>
+										<strong><a href="http://gganesan-rhel-apps-server-429542.phx01.dev.ebayc3.com/apps/eci/eci-kpi.html">ECI</a></strong>
+										<p> </p>
+										<i style="color:#33CC33" > "Quality Upstream - Pre and Post-commit metrics" </i>
 										<p>
-										Total : 
+										<!--Total : 
 										<br>
 										Common Services : 
 										<br>
 										Post Transaction : 
-										<br>
+										<br>-->
 									  </p>
-									  <button class="btn btn-white btn-info btn-bold" link="/craftmanship">
+									  <!--<button class="btn btn-white btn-info btn-bold" link="/craftmanship">
 												<i class="ace-icon fa fa-floppy-o bigger-120 blue"></i>
 												Open
-											</button>
+											</button> -->
 									</div>
 								</div>
 							</div>
@@ -193,23 +199,28 @@
 							<div class="widget-main">
 								<div class="row">
 									<div class="col-md-4">
-										<i style="color:#6fb3e0" class="fa fa-tachometer  bigger-500"></i>
+										<i style="color:#6fb3e0" class="fa fa-wrench  bigger-500"></i>
 									</div>
 									<div class="col-md-8">
 										<strong><a href="/craftmanship">Score card</a></strong>
 										<p>
+										</p>
+										<p>
+										<i style="color:#33CC33" > "Quality Scorecard" </i>
+										</p>
+										<!-- <p>
 										Total : 
 										<br>
 										Common Services : 
 										<br>
 										Post Transaction : 
 										<br>
-									  </p>
+									  </p> -->
 									  <a href="/craftmanship">
-									  <button class="btn btn-white btn-info btn-bold" link="/craftmanship">
+									  <!-- <button class="btn btn-white btn-info btn-bold" link="/craftmanship">
 												<i class="ace-icon fa fa-floppy-o bigger-120 blue"></i>
 												Open
-											</button></a>
+											</button></a> -->
 									</div>
 								</div>
 							</div>
@@ -260,18 +271,23 @@
 							<div class="widget-main">
 								<div class="row">
 									<div class="col-md-4">
-										<i style="color:#6fb3e0" class="fa fa-tachometer  bigger-500"></i>
+										<i style="color:#6fb3e0" class="fa fa-exclamation-triangle  bigger-500"></i>
 									</div>
 									<div class="col-md-8">
 										<strong>CAL Errors</strong>
 										<p>
+										</p>
+										<p>
+										<i style="color:#33CC33" > "Top CAL Errors for Risk Components" </i>
+										</p>
+										<!--<p>
 										Total : 
 										<br>
 										Common Services : 
 										<br>
 										Post Transaction : 
 										<br>
-									  </p>
+									  </p>-->
 									</div>
 								</div>
 							</div>
@@ -327,13 +343,16 @@
 									<div class="col-md-8">
 										<strong>Batch report</strong>
 										<p>
+										<i style="color:#33CC33" > "Batch report for Risk Components" </i>
+										</p>
+										<!--<p>
 										Total : 
 										<br>
 										Common Services : 
 										<br>
 										Post Transaction : 
 										<br>
-									  </p>
+									  </p> -->
 									</div>
 								</div>
 							</div>
@@ -341,7 +360,7 @@
 						</div>
 					</div>
 				
-					<div class="col-xs-12 col-sm-4 widget-container-col ui-sortable">
+					<!--<div class="col-xs-12 col-sm-4 widget-container-col ui-sortable">
 						<div class="widget-box ui-sortable-handle">
 							<div class="widget-header">
 												<h5 class="widget-title">ECI</h5>
@@ -388,14 +407,15 @@
 									</div>
 									<div class="col-md-8">
 										<strong>ECI</strong>
-										<p>
+										<p> Quality Upstream </p>
+										<!--<p>
 										Total : 
 										<br>
 										Common Services : 
 										<br>
 										Post Transaction : 
 										<br>
-									  </p>
+									  </p>-->
 									</div>
 								</div>
 							</div>
@@ -407,7 +427,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 
 <!--
     <h1> </h1>
