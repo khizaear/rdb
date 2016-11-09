@@ -1,4 +1,4 @@
-# PayPal RDB Layout
+# DUSTJS RDB Layout
 Create a new blank page with below html syntax 
 
 {<body}
